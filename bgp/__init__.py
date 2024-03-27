@@ -72,7 +72,7 @@ def _memoize_plaintext(self):
 
 ia.Item.xml = property(_memoize_xml)
 ia.Item.plaintext = property(_memoize_plaintext)
-
+  
 def get_book_items(query, rows=100, page=1, scope_all=False):
     """
     :param str query: an search query for selecting/faceting books
